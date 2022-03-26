@@ -1,0 +1,237 @@
+nav {
+    height: 90px;
+    background-color: #fff;
+}
+
+.border-icon {
+    margin-right: 10px;
+    border-radius: 50%;
+    border: solid 1px #ccc;
+    width: 30px;
+    height: 30px;
+}
+
+.section1 {
+    padding: 70px 0;
+}
+
+.section1-titre {
+    font-size: 37px;
+    text-align: right;
+    line-height: 43px;
+}
+
+.section1-trait {
+    font-size: 80px;
+    line-height: 0px;
+}
+
+.section1-parag {
+    text-align: justify;
+}
+
+.section2 {
+    background-image: linear-gradient(#fafafa, #fff);
+}
+
+
+/* begin featured */
+
+.featured {
+    background-color: #f6f6f6;
+}
+
+.featured .title h2 {
+    font-weight: 200;
+}
+
+.featured .title h2 span {
+    font-weight: 500 !important;
+}
+
+.featured .container .title::after {
+    content: "";
+    position: absolute;
+    bottom: 85px;
+    transform: translateX(-50%);
+    height: 3px;
+    width: 100px;
+    background-color: #e2574c;
+}
+
+.featured .card .card-body1 {
+    border-bottom: solid 1px black;
+    height: 160px;
+}
+
+.featured .card .card-body1 span {
+    color: red;
+}
+
+.featured .card .card-body1 h5 {
+    font-weight: 200;
+}
+
+.featured .card .card-body2 .one::after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 7px;
+    left: 80px;
+    border-radius: 100%;
+    background-color: #b4a9a9;
+}
+
+.featured .card .card-body2 .two::after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 16px;
+    left: 200px;
+    border-radius: 100%;
+    background-color: #b4a9a9;
+}
+
+@media(max-width:1000px) {
+    .navbar .nav-btns {
+        display: none !important;
+    }
+    .navbar .collapse {
+        z-index: 5;
+    }
+}
+
+.featured button {
+    color: white;
+    width: 150px;
+    background-color: #e2574c;
+}
+
+.featured .button button {
+    margin-bottom: 80px;
+    margin-top: 50px;
+}
+
+
+/* begin agents */
+
+.agent .title h2 {
+    font-weight: 200;
+    font-size: 40px;
+}
+
+.agent .title h2 .la {
+    font-weight: 400 !important;
+}
+
+.agent .container .title::after {
+    content: "";
+    position: absolute;
+    bottom: 30px;
+    left: 55px;
+    transform: translateX(-50%);
+    height: 3px;
+    width: 100px;
+    background-color: #e2574c;
+}
+
+.agent .title .span {
+    content: "";
+    position: absolute;
+    border: solid 1px black;
+    top: 73px;
+    left: 250px;
+    width: 13px;
+    height: 13px;
+    background-color: #e2574c;
+    border-radius: 100%;
+}
+
+.agent .title .spann {
+    content: "";
+    position: absolute;
+    border: solid 1px black;
+    top: 73px;
+    left: 275px;
+    width: 13px;
+    height: 13px;
+    background-color: white;
+    border-radius: 100%;
+}
+
+.agent .title .spannn {
+    content: "";
+    position: absolute;
+    border: solid 1px black;
+    top: 73px;
+    left: 300px;
+    width: 13px;
+    height: 13px;
+    background-color: white;
+    border-radius: 100%;
+}
+
+.icon1,
+.icon2 {
+    height: 50px;
+    width: 50px;
+    outline: black;
+    opacity: 0.5;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.icon1 {
+    position: relative;
+    left: 100px;
+}
+
+.icon2 {
+    position: relative;
+    right: 100px;
+}
+
+.base {
+    background-color: #f3f2f2;
+    height: 130px;
+}
+
+.base button {
+    color: white;
+    width: 150px;
+    background-color: #e2574c !important;
+}
+
+.base .title h3 {
+    font-weight: 200;
+}
+
+.base .title h3 span {
+    font-weight: 500;
+}
+
+
+/* begin testimonilas */
+
+#testimonilas {
+    background-image: url(../images/pic3.png);
+}
+
+#testimonilas h2 {
+    top: -50px;
+}
+
+#testimonilas h2::after {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 2px;
+    left: 50%;
+    top: 180%;
+    transform: translateX(-50%);
+    background-color: #e2574c;
+}
